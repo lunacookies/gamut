@@ -1,11 +1,14 @@
+use crate::palette::Palette;
 use mottle::theme::Scope::*;
 use mottle::theme::ThemeBuilder;
 
-pub(crate) fn add_rules(builder: &mut ThemeBuilder) {
-    workspace_colors(builder);
-    syntax_highlighting(builder);
+pub(crate) fn add_rules(builder: &mut ThemeBuilder, palette: &Palette) {
+    workspace_colors(builder, palette);
+    syntax_highlighting(builder, palette);
 }
 
-fn workspace_colors(builder: &mut ThemeBuilder) {}
+fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {}
 
-fn syntax_highlighting(builder: &mut ThemeBuilder) {}
+fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
+    builder.add_rule(Semantic("keyword"), palette.pink());
+}

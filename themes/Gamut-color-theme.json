@@ -4,6 +4,11 @@
 	"type": "dark",
 	"colors": {},
 	"semanticHighlighting": true,
-	"semanticTokenColors": {},
+	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#FE7BB3",
+			"fontStyle": ""
+		}
+	},
 	"tokenColors": []
 }
