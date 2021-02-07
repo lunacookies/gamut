@@ -17,6 +17,10 @@ impl Palette {
     pub(crate) fn pink(&self) -> Oklch {
         oklch(0.75, 0.17, 355.0)
     }
+
+    pub(crate) fn purple(&self) -> Oklch {
+        oklch(0.7, 0.17, 305.0)
+    }
 }
 
 #[derive(Debug, Clone, Copy)]
