@@ -2,7 +2,13 @@
 {
 	"name": "Gamut",
 	"type": "dark",
-	"colors": {},
+	"colors": {
+		"editor.background": "#24252E",
+		"foreground": "#DADCF2",
+		"editor.foreground": "#DADCF2",
+		"statusBar.background": "#191A22",
+		"statusBar.foreground": "#9A9CAD"
+	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"keyword": {
