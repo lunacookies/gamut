@@ -22,6 +22,18 @@
 		"method": {
 			"foreground": "#B77FF2",
 			"fontStyle": ""
+		},
+		"variable": {
+			"foreground": "#72BFB0",
+			"fontStyle": ""
+		},
+		"parameter": {
+			"foreground": "#72BFB0",
+			"fontStyle": ""
+		},
+		"property": {
+			"foreground": "#72BFB0",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

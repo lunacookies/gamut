@@ -24,4 +24,13 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         &[Semantic("function"), Semantic("method")],
         palette.purple(),
     );
+
+    builder.add_rules(
+        &[
+            Semantic("variable"),
+            Semantic("parameter"),
+            Semantic("property"),
+        ],
+        palette.teal(),
+    );
 }
