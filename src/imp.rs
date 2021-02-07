@@ -1,4 +1,5 @@
 use crate::palette::{BaseScale, Palette};
+use mottle::style::FontStyle;
 use mottle::theme::Scope::*;
 use mottle::theme::ThemeBuilder;
 
@@ -17,5 +18,5 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
-    builder.add_rule(Semantic("keyword"), palette.pink());
+    builder.add_rule(Semantic("keyword"), (palette.pink(), FontStyle::Bold));
 }

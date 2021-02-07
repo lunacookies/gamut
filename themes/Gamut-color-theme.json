@@ -13,7 +13,7 @@
 	"semanticTokenColors": {
 		"keyword": {
 			"foreground": "#FE7BB3",
-			"fontStyle": ""
+			"bold": true
 		}
 	},
 	"tokenColors": []
