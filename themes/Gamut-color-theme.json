@@ -24,55 +24,55 @@
 			"fontStyle": ""
 		},
 		"variable": {
-			"foreground": "#96D273",
+			"foreground": "#8DBF70",
 			"fontStyle": ""
 		},
 		"parameter": {
-			"foreground": "#96D273",
+			"foreground": "#8DBF70",
 			"fontStyle": ""
 		},
 		"property": {
-			"foreground": "#96D273",
+			"foreground": "#8DBF70",
 			"fontStyle": ""
 		},
 		"type": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"class": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"struct": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"union": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"typeAlias": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"builtinType": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"interface": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"typeParameter": {
-			"foreground": "#B77FF2",
+			"foreground": "#C09AEB",
 			"fontStyle": ""
 		},
 		"enum": {
-			"foreground": "#4AADC9",
+			"foreground": "#3DBFE2",
 			"fontStyle": ""
 		},
 		"enumMember": {
-			"foreground": "#4AADC9",
+			"foreground": "#3DBFE2",
 			"fontStyle": ""
 		}
 	},
