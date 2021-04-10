@@ -47,10 +47,6 @@
 			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
-		"enum": {
-			"foreground": "#B77FF2",
-			"fontStyle": ""
-		},
 		"union": {
 			"foreground": "#B77FF2",
 			"fontStyle": ""
@@ -69,6 +65,14 @@
 		},
 		"typeParameter": {
 			"foreground": "#B77FF2",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#4AADC9",
+			"fontStyle": ""
+		},
+		"enumMember": {
+			"foreground": "#4AADC9",
 			"fontStyle": ""
 		}
 	},

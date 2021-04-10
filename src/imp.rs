@@ -36,7 +36,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("type"),
             Semantic("class"),
             Semantic("struct"),
-            Semantic("enum"),
             Semantic("union"),
             Semantic("typeAlias"),
             Semantic("builtinType"),
@@ -45,4 +44,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.purple(),
     );
+
+    builder.add_rules(&[Semantic("enum"), Semantic("enumMember")], palette.blue());
 }
