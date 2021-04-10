@@ -45,5 +45,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.purple(),
     );
 
-    builder.add_rules(&[Semantic("enum"), Semantic("enumMember")], palette.blue());
+    builder.add_rule(Semantic("enum"), palette.light_blue());
+    builder.add_rule(Semantic("enumMember"), palette.blue());
 }
