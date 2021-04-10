@@ -33,4 +33,19 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.teal(),
     );
+
+    builder.add_rules(
+        &[
+            Semantic("type"),
+            Semantic("class"),
+            Semantic("struct"),
+            Semantic("enum"),
+            Semantic("union"),
+            Semantic("typeAlias"),
+            Semantic("builtinType"),
+            Semantic("interface"),
+            Semantic("typeParameter"),
+        ],
+        palette.green(),
+    );
 }

@@ -34,6 +34,42 @@
 		"property": {
 			"foreground": "#72BFB0",
 			"fontStyle": ""
+		},
+		"type": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"class": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"union": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#96D273",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#96D273",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
