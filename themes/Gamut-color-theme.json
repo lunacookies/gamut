@@ -16,59 +16,59 @@
 			"bold": true
 		},
 		"function": {
-			"foreground": "#B77FF2",
+			"foreground": "#72BFB0",
 			"fontStyle": ""
 		},
 		"method": {
-			"foreground": "#B77FF2",
+			"foreground": "#72BFB0",
 			"fontStyle": ""
 		},
 		"variable": {
-			"foreground": "#72BFB0",
+			"foreground": "#96D273",
 			"fontStyle": ""
 		},
 		"parameter": {
-			"foreground": "#72BFB0",
+			"foreground": "#96D273",
 			"fontStyle": ""
 		},
 		"property": {
-			"foreground": "#72BFB0",
+			"foreground": "#96D273",
 			"fontStyle": ""
 		},
 		"type": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"class": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"struct": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"enum": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"union": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"typeAlias": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"builtinType": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"interface": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		},
 		"typeParameter": {
-			"foreground": "#96D273",
+			"foreground": "#B77FF2",
 			"fontStyle": ""
 		}
 	},

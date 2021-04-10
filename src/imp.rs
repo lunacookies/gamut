@@ -20,10 +20,7 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("keyword"), (palette.pink(), FontStyle::Bold));
 
-    builder.add_rules(
-        &[Semantic("function"), Semantic("method")],
-        palette.purple(),
-    );
+    builder.add_rules(&[Semantic("function"), Semantic("method")], palette.teal());
 
     builder.add_rules(
         &[
@@ -31,7 +28,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("parameter"),
             Semantic("property"),
         ],
-        palette.teal(),
+        palette.green(),
     );
 
     builder.add_rules(
@@ -46,6 +43,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("interface"),
             Semantic("typeParameter"),
         ],
-        palette.green(),
+        palette.purple(),
     );
 }
