@@ -18,7 +18,14 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
-    builder.add_rule(Semantic("keyword"), (palette.pink(), FontStyle::Bold));
+    builder.add_rules(
+        &[
+            Semantic("keyword"),
+            Semantic("function.attribute"),
+            Semantic("boolean"),
+        ],
+        (palette.pink(), FontStyle::Bold),
+    );
 
     builder.add_rules(
         &[
