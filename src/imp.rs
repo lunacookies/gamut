@@ -50,6 +50,21 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::LightBg),
     );
 
+    builder.add_workspace_rule("list.focusBackground", palette.ui_blue());
+    builder.add_workspace_rules(
+        &[
+            "list.inactiveFocusBackground",
+            "list.inactiveSelectionBackground",
+        ],
+        Palette::TRANSPARENT,
+    );
+    builder.add_workspace_rules(
+        &["list.focusForeground", "list.activeSelectionForeground"],
+        palette.base(BaseScale::Fg),
+    );
+    builder.add_workspace_rule("list.hoverBackground", Palette::TRANSPARENT);
+    builder.add_workspace_rule("list.focusOutline", Palette::TRANSPARENT);
+
     builder.add_workspace_rule("editorWidget.background", palette.base(BaseScale::LightBg));
 
     builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkBg));

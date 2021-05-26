@@ -1,9 +1,11 @@
 use std::ops::Range;
-use tincture::{Hue, Oklch};
+use tincture::{ColorSpace, Hue, Oklch};
 
 pub(crate) struct Palette;
 
 impl Palette {
+    pub(crate) const TRANSPARENT: (Oklch, u8) = (Oklch::BLACK, 0);
+
     pub(crate) fn base(&self, scale: BaseScale) -> Oklch {
         let scale_point = scale.value();
 
@@ -12,6 +14,10 @@ impl Palette {
             lerp(scale_point, 0.015..0.03),
             280.0,
         )
+    }
+
+    pub(crate) fn ui_blue(&self) -> Oklch {
+        oklch(0.53700125, 0.15737669, 254.78726)
     }
 
     pub(crate) fn red(&self) -> Oklch {
