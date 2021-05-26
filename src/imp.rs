@@ -22,7 +22,16 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::Fg),
     );
 
-    builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkerBg));
+    builder.add_workspace_rule("sideBar.background", palette.base(BaseScale::DarkBg));
+
+    builder.add_workspace_rule("activityBar.background", palette.base(BaseScale::DarkBg));
+    builder.add_workspace_rule("activityBar.foreground", palette.base(BaseScale::Fg));
+    builder.add_workspace_rule(
+        "activityBar.inactiveForeground",
+        palette.base(BaseScale::DarkFg),
+    );
+
+    builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkBg));
     builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::FadedFg));
 }
 

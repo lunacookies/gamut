@@ -8,6 +8,10 @@
 		"editor.foreground": "#DADCF2",
 		"editorLineNumber.foreground": "#717382",
 		"editorLineNumber.activeForeground": "#DADCF2",
+		"sideBar.background": "#191A22",
+		"activityBar.background": "#191A22",
+		"activityBar.foreground": "#DADCF2",
+		"activityBar.inactiveForeground": "#717382",
 		"statusBar.background": "#191A22",
 		"statusBar.foreground": "#9A9CAD"
 	},
