@@ -138,4 +138,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("macro"), palette.orange());
 
     builder.add_rule(Semantic("lifetime"), (palette.orange(), FontStyle::Italic));
+
+    builder.add_rule(Semantic("comment"), FontStyle::Bold);
 }

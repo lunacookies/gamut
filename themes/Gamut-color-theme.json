@@ -258,6 +258,9 @@
 		"lifetime": {
 			"foreground": "#EEAE7B",
 			"italic": true
+		},
+		"comment": {
+			"bold": true
 		}
 	},
 	"tokenColors": []
