@@ -214,6 +214,14 @@
 		"typeParameter.trait": {
 			"foreground": "#B2DD9A",
 			"fontStyle": ""
+		},
+		"number": {
+			"foreground": "#CDC072",
+			"fontStyle": ""
+		},
+		"characterLiteral": {
+			"foreground": "#CDC072",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

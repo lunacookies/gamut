@@ -116,4 +116,9 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         ],
         palette.light_green(),
     );
+
+    builder.add_rules(
+        &[Semantic("number"), Semantic("characterLiteral")],
+        palette.yellow(),
+    );
 }
