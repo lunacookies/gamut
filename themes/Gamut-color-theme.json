@@ -254,6 +254,10 @@
 		"macro": {
 			"foreground": "#EEAE7B",
 			"fontStyle": ""
+		},
+		"lifetime": {
+			"foreground": "#EEAE7B",
+			"italic": true
 		}
 	},
 	"tokenColors": []
