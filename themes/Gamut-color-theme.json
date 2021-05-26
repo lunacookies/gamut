@@ -83,6 +83,22 @@
 			"foreground": "#B682ED",
 			"fontStyle": ""
 		},
+		"arithmetic": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"bitwise": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"logical": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"comparison": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
 		"property.library": {
 			"foreground": "#B682ED",
 			"fontStyle": ""
