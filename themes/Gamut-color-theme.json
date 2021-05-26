@@ -242,6 +242,10 @@
 		"string": {
 			"foreground": "#FE8673",
 			"fontStyle": ""
+		},
+		"macro": {
+			"foreground": "#EEAE7B",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []

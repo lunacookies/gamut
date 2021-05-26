@@ -127,4 +127,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_rule(Semantic("string"), palette.red());
+
+    builder.add_rule(Semantic("macro"), palette.orange());
 }
