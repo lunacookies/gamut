@@ -18,6 +18,7 @@
 		"tab.inactiveBackground": "#191A22",
 		"editorGroupHeader.tabsBackground": "#191A22",
 		"editorGroupHeader.noTabsBackground": "#2C2D37",
+		"editorWidget.background": "#2C2D37",
 		"statusBar.background": "#191A22",
 		"statusBar.foreground": "#9A9CAD"
 	},

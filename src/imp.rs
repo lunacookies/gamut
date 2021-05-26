@@ -50,6 +50,8 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::LightBg),
     );
 
+    builder.add_workspace_rule("editorWidget.background", palette.base(BaseScale::LightBg));
+
     builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkBg));
     builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::FadedFg));
 }
