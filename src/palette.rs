@@ -67,6 +67,7 @@ impl Palette {
 pub(crate) enum BaseScale {
     DarkBg,
     Bg,
+    LightBg,
     DarkFg,
     FadedFg,
     Fg,
@@ -77,6 +78,7 @@ impl BaseScale {
         match self {
             Self::DarkBg => 0.0,
             Self::Bg => 0.07,
+            Self::LightBg => 0.12,
             Self::DarkFg => 0.5,
             Self::FadedFg => 0.7,
             Self::Fg => 1.0,
