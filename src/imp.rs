@@ -194,4 +194,9 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("lifetime"), (palette.orange(), FontStyle::Italic));
 
     builder.add_rule(Semantic("comment"), FontStyle::Bold);
+
+    builder.add_rule(
+        Semantic("unresolvedReference"),
+        (palette.red(), FontStyle::Underline),
+    );
 }
