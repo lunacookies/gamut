@@ -13,6 +13,15 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_workspace_rule("foreground", palette.base(BaseScale::Fg));
     builder.add_workspace_rule("editor.foreground", palette.base(BaseScale::Fg));
 
+    builder.add_workspace_rule(
+        "editorLineNumber.foreground",
+        palette.base(BaseScale::DarkFg),
+    );
+    builder.add_workspace_rule(
+        "editorLineNumber.activeForeground",
+        palette.base(BaseScale::Fg),
+    );
+
     builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkerBg));
     builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::FadedFg));
 }

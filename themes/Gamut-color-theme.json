@@ -6,6 +6,8 @@
 		"editor.background": "#24252E",
 		"foreground": "#DADCF2",
 		"editor.foreground": "#DADCF2",
+		"editorLineNumber.foreground": "#717382",
+		"editorLineNumber.activeForeground": "#DADCF2",
 		"statusBar.background": "#191A22",
 		"statusBar.foreground": "#9A9CAD"
 	},
