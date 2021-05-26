@@ -222,6 +222,10 @@
 		"characterLiteral": {
 			"foreground": "#CDC072",
 			"fontStyle": ""
+		},
+		"string": {
+			"foreground": "#FE8673",
+			"fontStyle": ""
 		}
 	},
 	"tokenColors": []
