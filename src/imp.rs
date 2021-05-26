@@ -38,6 +38,18 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::DarkFg),
     );
 
+    builder.add_workspace_rule("tab.activeForeground", palette.base(BaseScale::Fg));
+    builder.add_workspace_rule("tab.inactiveForeground", palette.base(BaseScale::DarkFg));
+    builder.add_workspace_rule("tab.inactiveBackground", palette.base(BaseScale::DarkBg));
+    builder.add_workspace_rule(
+        "editorGroupHeader.tabsBackground",
+        palette.base(BaseScale::DarkBg),
+    );
+    builder.add_workspace_rule(
+        "editorGroupHeader.noTabsBackground",
+        palette.base(BaseScale::LightBg),
+    );
+
     builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkBg));
     builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::FadedFg));
 }

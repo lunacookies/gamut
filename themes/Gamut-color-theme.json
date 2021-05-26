@@ -13,6 +13,11 @@
 		"activityBar.background": "#191A22",
 		"activityBar.foreground": "#DADCF2",
 		"activityBar.inactiveForeground": "#717382",
+		"tab.activeForeground": "#DADCF2",
+		"tab.inactiveForeground": "#717382",
+		"tab.inactiveBackground": "#191A22",
+		"editorGroupHeader.tabsBackground": "#191A22",
+		"editorGroupHeader.noTabsBackground": "#2C2D37",
 		"statusBar.background": "#191A22",
 		"statusBar.foreground": "#9A9CAD"
 	},
