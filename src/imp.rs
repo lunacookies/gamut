@@ -20,16 +20,16 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rule(Semantic("keyword"), (palette.pink(), FontStyle::Bold));
 
-    builder.add_rule(Semantic("function"), palette.teal());
-    builder.add_rule(Semantic("method"), palette.light_teal());
-
     builder.add_rules(
         &[
             Semantic("variable"),
             Semantic("parameter"),
+            Semantic("function"),
+            Semantic("method"),
             Semantic("property"),
+            Semantic("enumMember"),
         ],
-        palette.green(),
+        palette.teal(),
     );
 
     builder.add_rules(
@@ -37,15 +37,83 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("type"),
             Semantic("class"),
             Semantic("struct"),
+            Semantic("enum"),
             Semantic("union"),
             Semantic("typeAlias"),
-            Semantic("builtinType"),
-            Semantic("interface"),
             Semantic("typeParameter"),
+        ],
+        palette.light_teal(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("variable.library"),
+            Semantic("parameter.library"),
+            Semantic("function.library"),
+            Semantic("method.library"),
+            Semantic("property.library"),
+            Semantic("enumMember.library"),
         ],
         palette.purple(),
     );
 
-    builder.add_rule(Semantic("enum"), palette.light_blue());
-    builder.add_rule(Semantic("enumMember"), palette.blue());
+    builder.add_rules(
+        &[
+            Semantic("type.library"),
+            Semantic("class.library"),
+            Semantic("struct.library"),
+            Semantic("enum.library"),
+            Semantic("union.library"),
+            Semantic("typeAlias.library"),
+            Semantic("builtinType"),
+        ],
+        palette.light_purple(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("variable.declaration"),
+            Semantic("parameter.declaration"),
+            Semantic("function.declaration"),
+            Semantic("method.declaration"),
+            Semantic("property.declaration"),
+            Semantic("enumMember.declaration"),
+        ],
+        palette.blue(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("type.declaration"),
+            Semantic("class.declaration"),
+            Semantic("struct.declaration"),
+            Semantic("enum.declaration"),
+            Semantic("union.declaration"),
+            Semantic("typeAlias.declaration"),
+            Semantic("typeParameter.declaration"),
+        ],
+        palette.light_blue(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("variable.trait"),
+            Semantic("function.trait"),
+            Semantic("method.trait"),
+        ],
+        palette.green(),
+    );
+    builder.add_rules(
+        &[
+            Semantic("interface"),
+            Semantic("type.trait"),
+            Semantic("class.trait"),
+            Semantic("struct.trait"),
+            Semantic("enum.trait"),
+            Semantic("union.trait"),
+            Semantic("typeAlias.trait"),
+            Semantic("typeParameter.trait"),
+        ],
+        palette.light_green(),
+    );
 }

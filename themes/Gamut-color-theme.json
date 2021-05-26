@@ -15,64 +15,204 @@
 			"foreground": "#FE7BB3",
 			"bold": true
 		},
+		"variable": {
+			"foreground": "#72BFB0",
+			"fontStyle": ""
+		},
+		"parameter": {
+			"foreground": "#72BFB0",
+			"fontStyle": ""
+		},
 		"function": {
 			"foreground": "#72BFB0",
 			"fontStyle": ""
 		},
 		"method": {
-			"foreground": "#9BDDCF",
-			"fontStyle": ""
-		},
-		"variable": {
-			"foreground": "#8DBF70",
-			"fontStyle": ""
-		},
-		"parameter": {
-			"foreground": "#8DBF70",
+			"foreground": "#72BFB0",
 			"fontStyle": ""
 		},
 		"property": {
-			"foreground": "#8DBF70",
-			"fontStyle": ""
-		},
-		"type": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"class": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"struct": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"union": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"typeAlias": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"builtinType": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"interface": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"typeParameter": {
-			"foreground": "#C09AEB",
-			"fontStyle": ""
-		},
-		"enum": {
-			"foreground": "#7DDDFB",
+			"foreground": "#72BFB0",
 			"fontStyle": ""
 		},
 		"enumMember": {
+			"foreground": "#72BFB0",
+			"fontStyle": ""
+		},
+		"type": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"class": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"union": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"typeAlias": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#A2F0E0",
+			"fontStyle": ""
+		},
+		"variable.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"parameter.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"function.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"method.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"property.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"enumMember.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"type.library": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"class.library": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"struct.library": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"enum.library": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"union.library": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"typeAlias.library": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#CDAEF2",
+			"fontStyle": ""
+		},
+		"variable.declaration": {
 			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"parameter.declaration": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"function.declaration": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"method.declaration": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"property.declaration": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"enumMember.declaration": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"type.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"class.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"struct.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"enum.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"union.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"typeAlias.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"typeParameter.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"variable.trait": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"function.trait": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"method.trait": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"type.trait": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"class.trait": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"struct.trait": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"enum.trait": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"union.trait": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"typeAlias.trait": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"typeParameter.trait": {
+			"foreground": "#B2DD9A",
 			"fontStyle": ""
 		}
 	},
