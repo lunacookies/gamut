@@ -11,7 +11,7 @@ impl Palette {
 
         oklch(
             lerp(scale_point, 0.22..0.9),
-            lerp(scale_point, 0.015..0.03),
+            lerp(scale_point, 0.015..0.01),
             280.0,
         )
     }
