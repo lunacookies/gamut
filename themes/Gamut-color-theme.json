@@ -163,58 +163,6 @@
 			"foreground": "#CDAEF2",
 			"fontStyle": ""
 		},
-		"variable.declaration": {
-			"foreground": "#3DBFE2",
-			"fontStyle": ""
-		},
-		"parameter.declaration": {
-			"foreground": "#3DBFE2",
-			"fontStyle": ""
-		},
-		"function.declaration": {
-			"foreground": "#3DBFE2",
-			"fontStyle": ""
-		},
-		"method.declaration": {
-			"foreground": "#3DBFE2",
-			"fontStyle": ""
-		},
-		"property.declaration": {
-			"foreground": "#3DBFE2",
-			"fontStyle": ""
-		},
-		"enumMember.declaration": {
-			"foreground": "#3DBFE2",
-			"fontStyle": ""
-		},
-		"type.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"class.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"struct.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"enum.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"union.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"typeAlias.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"typeParameter.declaration": {
-			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
 		"variable.trait": {
 			"foreground": "#8DBF70",
 			"fontStyle": ""
@@ -257,6 +205,50 @@
 		},
 		"typeParameter.trait": {
 			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"variable.public": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"function.public": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"method.public": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"property.public": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"enumMember.public": {
+			"foreground": "#3DBFE2",
+			"fontStyle": ""
+		},
+		"type.public": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"class.public": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"struct.public": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"enum.public": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"union.public": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
+		"typeAlias.public": {
+			"foreground": "#7DDDFB",
 			"fontStyle": ""
 		},
 		"number": {

@@ -137,31 +137,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rules(
         &[
-            Semantic("variable.declaration"),
-            Semantic("parameter.declaration"),
-            Semantic("function.declaration"),
-            Semantic("method.declaration"),
-            Semantic("property.declaration"),
-            Semantic("enumMember.declaration"),
-        ],
-        palette.blue(),
-    );
-
-    builder.add_rules(
-        &[
-            Semantic("type.declaration"),
-            Semantic("class.declaration"),
-            Semantic("struct.declaration"),
-            Semantic("enum.declaration"),
-            Semantic("union.declaration"),
-            Semantic("typeAlias.declaration"),
-            Semantic("typeParameter.declaration"),
-        ],
-        palette.light_blue(),
-    );
-
-    builder.add_rules(
-        &[
             Semantic("variable.trait"),
             Semantic("function.trait"),
             Semantic("method.trait"),
@@ -180,6 +155,28 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("typeParameter.trait"),
         ],
         palette.light_green(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("variable.public"),
+            Semantic("function.public"),
+            Semantic("method.public"),
+            Semantic("property.public"),
+            Semantic("enumMember.public"),
+        ],
+        palette.blue(),
+    );
+    builder.add_rules(
+        &[
+            Semantic("type.public"),
+            Semantic("class.public"),
+            Semantic("struct.public"),
+            Semantic("enum.public"),
+            Semantic("union.public"),
+            Semantic("typeAlias.public"),
+        ],
+        palette.light_blue(),
     );
 
     builder.add_rules(
