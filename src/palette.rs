@@ -7,13 +7,7 @@ impl Palette {
     pub(crate) const TRANSPARENT: (Oklch, u8) = (Oklch::BLACK, 0);
 
     pub(crate) fn base(&self, scale: BaseScale) -> Oklch {
-        let scale_point = scale.value();
-
-        oklch(
-            lerp(scale_point, 0.22..0.9),
-            lerp(scale_point, 0.015..0.01),
-            280.0,
-        )
+        oklch(scale.lightness(), scale.chroma(), 280.0)
     }
 
     pub(crate) fn ui_blue(&self) -> Oklch {
@@ -80,6 +74,18 @@ pub(crate) enum BaseScale {
 }
 
 impl BaseScale {
+    fn lightness(self) -> f32 {
+        lerp(self.value(), 0.22..0.9)
+    }
+
+    fn chroma(self) -> f32 {
+        if let Self::Fg = self {
+            0.01
+        } else {
+            lerp(self.value(), 0.015..0.07)
+        }
+    }
+
     fn value(self) -> f32 {
         match self {
             Self::DarkBg => 0.0,
