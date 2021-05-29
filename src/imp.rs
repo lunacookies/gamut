@@ -29,6 +29,11 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::Fg),
     );
 
+    builder.add_workspace_rule(
+        "editor.selectionBackground",
+        palette.base(BaseScale::BrightBg),
+    );
+
     builder.add_workspace_rule("sideBar.background", palette.base(BaseScale::DarkBg));
 
     builder.add_workspace_rule("activityBar.background", palette.base(BaseScale::DarkBg));
