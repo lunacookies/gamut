@@ -28,7 +28,8 @@
 		"list.focusOutline": "#00000000",
 		"editorWidget.background": "#30323B",
 		"statusBar.background": "#1E1F23",
-		"statusBar.foreground": "#959DC0"
+		"statusBar.foreground": "#959DC0",
+		"rust_analyzer.inlayHints.foreground": "#70768F"
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {

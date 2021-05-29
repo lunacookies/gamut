@@ -74,6 +74,11 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_workspace_rule("statusBar.background", palette.base(BaseScale::DarkBg));
     builder.add_workspace_rule("statusBar.foreground", palette.base(BaseScale::FadedFg));
+
+    builder.add_workspace_rule(
+        "rust_analyzer.inlayHints.foreground",
+        palette.base(BaseScale::DarkFg),
+    );
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
