@@ -37,14 +37,6 @@
 			"foreground": "#FE7BB3",
 			"bold": true
 		},
-		"function.attribute": {
-			"foreground": "#FE7BB3",
-			"bold": true
-		},
-		"boolean": {
-			"foreground": "#FE7BB3",
-			"bold": true
-		},
 		"variable": {
 			"foreground": "#72BFB0",
 			"fontStyle": ""
@@ -134,6 +126,10 @@
 			"fontStyle": ""
 		},
 		"enumMember.library": {
+			"foreground": "#B682ED",
+			"fontStyle": ""
+		},
+		"boolean": {
 			"foreground": "#B682ED",
 			"fontStyle": ""
 		},
