@@ -70,31 +70,31 @@
 			"fontStyle": ""
 		},
 		"type": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"class": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"struct": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"enum": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"union": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"typeAlias": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"typeParameter": {
-			"foreground": "#A2F0E0",
+			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
 		"variable.library": {
@@ -138,31 +138,31 @@
 			"fontStyle": ""
 		},
 		"type.library": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"class.library": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"struct.library": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"enum.library": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"union.library": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"typeAlias.library": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"builtinType": {
-			"foreground": "#CDAEF2",
+			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
 		"variable.trait": {
@@ -389,14 +389,14 @@
 		{
 			"scope": "markup.inline.raw.string.markdown",
 			"settings": {
-				"foreground": "#CDAEF2",
+				"foreground": "#D0AAFC",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "markup.fenced_code.block.markdown",
 			"settings": {
-				"foreground": "#CDAEF2",
+				"foreground": "#D0AAFC",
 				"fontStyle": ""
 			}
 		}
