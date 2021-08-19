@@ -65,6 +65,7 @@ impl Palette {
 
 #[derive(Debug, Clone, Copy)]
 pub(crate) enum BaseScale {
+    DarkerBg,
     DarkBg,
     Bg,
     LightBg,
@@ -76,23 +77,29 @@ pub(crate) enum BaseScale {
 
 impl BaseScale {
     fn lightness(self) -> f32 {
-        lerp(self.value(), 0.24..0.9)
+        lerp(self.value(), 0.1..0.9)
     }
 
     fn chroma(self) -> f32 {
-        if let Self::Fg = self {
-            0.01
-        } else {
-            lerp(self.value(), 0.008..0.07)
+        match self {
+            Self::DarkerBg => 0.01,
+            Self::DarkBg => 0.01,
+            Self::Bg => 0.016,
+            Self::LightBg => 0.022,
+            Self::BrightBg => 0.05,
+            Self::DarkFg => 0.06,
+            Self::FadedFg => 0.05,
+            Self::Fg => 0.01,
         }
     }
 
     fn value(self) -> f32 {
         match self {
-            Self::DarkBg => 0.0,
-            Self::Bg => 0.07,
-            Self::LightBg => 0.12,
-            Self::BrightBg => 0.4,
+            Self::DarkerBg => 0.0,
+            Self::DarkBg => 0.15,
+            Self::Bg => 0.22,
+            Self::LightBg => 0.235,
+            Self::BrightBg => 0.45,
             Self::DarkFg => 0.5,
             Self::FadedFg => 0.7,
             Self::Fg => 1.0,
