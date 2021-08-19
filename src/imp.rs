@@ -188,7 +188,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_rules(
-        &[Semantic("number"), Semantic("characterLiteral")],
+        &[Semantic("number"), Semantic("character")],
         palette.yellow(),
     );
 
