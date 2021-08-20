@@ -286,22 +286,29 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rules(&[Semantic("comment"), Textmate("comment")], FontStyle::Bold);
 
-    builder.add_rule(Textmate("keyword.operator"), palette.base(BaseScale::Fg));
+    builder.add_rules(
+        &[Textmate("punctuation"), Textmate("keyword.operator")],
+        palette.base(BaseScale::Fg),
+    );
 
     builder.add_rule(
         Semantic("unresolvedReference"),
         (palette.red(), FontStyle::Underline),
     );
 
-    builder.add_rule(Textmate("markup.heading"), FontStyle::Bold);
+    builder.add_rule(
+        Textmate("entity.name.section.markdown"),
+        (palette.base(BaseScale::Fg), FontStyle::Bold),
+    );
     builder.add_rules(
         &[
             Textmate("fenced_code.block.language"),
             Textmate("punctuation.definition.bold.markdown"),
             Textmate("punctuation.definition.constant.markdown"),
+            Textmate("punctuation.definition.constant.begin.markdown"),
             Textmate("punctuation.definition.heading.markdown"),
             Textmate("punctuation.definition.italic.markdown"),
-            Textmate("punctuation.definition.list.markdown"),
+            Textmate("punctuation.definition.list.begin.markdown"),
             Textmate("punctuation.definition.markdown"),
             Textmate("punctuation.definition.metadata.markdown"),
             Textmate("punctuation.definition.quote.begin.markdown"),
@@ -310,6 +317,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Textmate("punctuation.definition.string.begin.markdown"),
             Textmate("punctuation.definition.string.end.markdown"),
             Textmate("punctuation.separator.key-value.markdown"),
+            Textmate("markup.heading.setext"),
         ],
         palette.teal(),
     );
@@ -317,7 +325,15 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         &[
             Textmate("markup.inline.raw.string.markdown"),
             Textmate("markup.fenced_code.block.markdown"),
+            Textmate("markup.raw.block.markdown"),
         ],
         palette.light_purple(),
+    );
+    builder.add_rules(
+        &[
+            Textmate("string.other.link.title.markdown"),
+            Textmate("constant.other.reference.link.markdown"),
+        ],
+        palette.base(BaseScale::Fg),
     );
 }
