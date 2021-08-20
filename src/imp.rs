@@ -173,6 +173,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("union.library"),
             Semantic("typeAlias.library"),
             Semantic("builtinType"),
+            Semantic("annotation"),
             Textmate("keyword.type"),
             Textmate("storage.type.primitive"),
             Textmate("storage.type.built-in"),
@@ -185,6 +186,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Textmate("storage.type.uintptr.go"),
             Textmate("storage.type.error.go"),
             Textmate("storage.type.rune.go"),
+            Textmate("storage.type.annotation"),
         ],
         palette.light_purple(),
     );
@@ -263,7 +265,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("attribute.attribute"),
             Semantic("macro.attribute"),
             Semantic("generic.attribute"),
-            Textmate("storage.type.annotation"),
         ],
         palette.base(BaseScale::Fg),
     );

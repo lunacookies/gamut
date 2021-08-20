@@ -173,6 +173,10 @@
 			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
+		"annotation": {
+			"foreground": "#D0AAFC",
+			"fontStyle": ""
+		},
 		"variable.declaration": {
 			"foreground": "#3DBFE2",
 			"fontStyle": ""
@@ -540,6 +544,13 @@
 			}
 		},
 		{
+			"scope": "storage.type.annotation",
+			"settings": {
+				"foreground": "#D0AAFC",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#CDC072",
@@ -569,13 +580,6 @@
 		},
 		{
 			"scope": "storage.modifier.package",
-			"settings": {
-				"foreground": "#DCDEE5",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "storage.type.annotation",
 			"settings": {
 				"foreground": "#DCDEE5",
 				"fontStyle": ""
