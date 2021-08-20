@@ -287,7 +287,13 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     builder.add_rules(&[Semantic("comment"), Textmate("comment")], FontStyle::Bold);
 
     builder.add_rules(
-        &[Textmate("punctuation"), Textmate("keyword.operator")],
+        &[
+            Textmate("punctuation"),
+            Textmate("keyword.operator"),
+            // closure parameter ‘|’s are highlighted
+            // as a binary ‘or’ without this
+            Textmate("keyword.operator.logical.rust"),
+        ],
         palette.base(BaseScale::Fg),
     );
 
