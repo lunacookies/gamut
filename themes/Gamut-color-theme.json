@@ -786,6 +786,18 @@
 				"foreground": "#DCDEE5",
 				"fontStyle": ""
 			}
+		},
+		{
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
 		}
 	]
 }
