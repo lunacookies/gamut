@@ -285,6 +285,18 @@
 			"foreground": "#DCDEE5",
 			"fontStyle": ""
 		},
+		"attribute.attribute": {
+			"foreground": "#DCDEE5",
+			"fontStyle": ""
+		},
+		"macro.attribute": {
+			"foreground": "#DCDEE5",
+			"fontStyle": ""
+		},
+		"generic.attribute": {
+			"foreground": "#DCDEE5",
+			"fontStyle": ""
+		},
 		"formatSpecifier": {
 			"foreground": "#DCDEE5",
 			"fontStyle": ""
@@ -557,6 +569,13 @@
 		},
 		{
 			"scope": "storage.modifier.package",
+			"settings": {
+				"foreground": "#DCDEE5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "storage.type.annotation",
 			"settings": {
 				"foreground": "#DCDEE5",
 				"fontStyle": ""

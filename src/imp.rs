@@ -260,6 +260,16 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rules(
         &[
+            Semantic("attribute.attribute"),
+            Semantic("macro.attribute"),
+            Semantic("generic.attribute"),
+            Textmate("storage.type.annotation"),
+        ],
+        palette.base(BaseScale::Fg),
+    );
+
+    builder.add_rules(
+        &[
             Semantic("formatSpecifier"),
             Semantic("escapeSequence"),
             Textmate("constant.character.escape"),
