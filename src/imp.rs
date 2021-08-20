@@ -306,6 +306,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Textmate("punctuation.definition.bold.markdown"),
             Textmate("punctuation.definition.constant.markdown"),
             Textmate("punctuation.definition.constant.begin.markdown"),
+            Textmate("punctuation.definition.constant.end.markdown"),
             Textmate("punctuation.definition.heading.markdown"),
             Textmate("punctuation.definition.italic.markdown"),
             Textmate("punctuation.definition.list.begin.markdown"),

@@ -662,6 +662,13 @@
 			}
 		},
 		{
+			"scope": "punctuation.definition.constant.end.markdown",
+			"settings": {
+				"foreground": "#72BFB0",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "punctuation.definition.heading.markdown",
 			"settings": {
 				"foreground": "#72BFB0",
