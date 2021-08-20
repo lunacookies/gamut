@@ -95,7 +95,15 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
-    builder.add_rules(&[Semantic("keyword")], (palette.pink(), FontStyle::Bold));
+    builder.add_rules(
+        &[
+            Semantic("keyword"),
+            Textmate("keyword"),
+            Textmate("storage"),
+            Textmate("variable.language.this"),
+        ],
+        (palette.pink(), FontStyle::Bold),
+    );
 
     builder.add_rules(
         &[
@@ -105,6 +113,10 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("method"),
             Semantic("property"),
             Semantic("enumMember"),
+            Textmate("variable"),
+            Textmate("constant"),
+            Textmate("entity"),
+            Textmate("support.type.property-name"),
         ],
         palette.teal(),
     );
@@ -118,6 +130,9 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("union"),
             Semantic("typeAlias"),
             Semantic("typeParameter"),
+            Textmate("entity.name.type"),
+            Textmate("storage.type.java"),
+            Textmate("storage.type.cs"),
         ],
         palette.light_teal(),
     );
@@ -132,9 +147,19 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("bitwise"),
             Semantic("logical"),
             Semantic("comparison"),
+            Semantic("operator.controlFlow"), // ?
             Semantic("property.library"),
             Semantic("enumMember.library"),
             Semantic("boolean"),
+            Textmate("constant.language"),
+            Textmate("support.function"),
+            Textmate("keyword.operator.arithmetic"),
+            Textmate("keyword.operator.increment"),
+            Textmate("keyword.operator.decrement"),
+            Textmate("keyword.operator.increment-decrement"),
+            Textmate("keyword.operator.bitwise"),
+            Textmate("keyword.operator.logical"),
+            Textmate("keyword.operator.comparison"),
         ],
         palette.purple(),
     );
@@ -148,6 +173,18 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("union.library"),
             Semantic("typeAlias.library"),
             Semantic("builtinType"),
+            Textmate("keyword.type"),
+            Textmate("storage.type.primitive"),
+            Textmate("storage.type.built-in"),
+            Textmate("entity.name.type.numeric"),
+            Textmate("entity.name.type.primitive"),
+            Textmate("storage.type.numeric.go"),
+            Textmate("storage.type.byte.go"),
+            Textmate("storage.type.boolean.go"),
+            Textmate("storage.type.string.go"),
+            Textmate("storage.type.uintptr.go"),
+            Textmate("storage.type.error.go"),
+            Textmate("storage.type.rune.go"),
         ],
         palette.light_purple(),
     );
@@ -201,17 +238,44 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
     );
 
     builder.add_rules(
-        &[Semantic("number"), Semantic("character")],
+        &[
+            Semantic("number"),
+            Semantic("character"),
+            Textmate("constant.numeric"),
+        ],
         palette.yellow(),
     );
 
-    builder.add_rule(Semantic("string"), palette.red());
+    builder.add_rules(&[Semantic("string"), Textmate("string")], palette.red());
+
+    builder.add_rules(
+        &[
+            Semantic("namespace"),
+            Textmate("entity.name.type.namespace"),
+            Textmate("storage.modifier.import"),
+            Textmate("storage.modifier.package"),
+        ],
+        palette.base(BaseScale::Fg),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("formatSpecifier"),
+            Semantic("escapeSequence"),
+            Textmate("constant.character.escape"),
+            Textmate("punctuation.definition.interpolation"),
+            Textmate("constant.other.placeholder"),
+        ],
+        palette.base(BaseScale::Fg),
+    );
 
     builder.add_rule(Semantic("macro"), palette.orange());
 
     builder.add_rule(Semantic("lifetime"), (palette.orange(), FontStyle::Italic));
 
-    builder.add_rule(Semantic("comment"), FontStyle::Bold);
+    builder.add_rules(&[Semantic("comment"), Textmate("comment")], FontStyle::Bold);
+
+    builder.add_rule(Textmate("keyword.operator"), palette.base(BaseScale::Fg));
 
     builder.add_rule(
         Semantic("unresolvedReference"),
