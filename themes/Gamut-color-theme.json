@@ -655,6 +655,13 @@
 			}
 		},
 		{
+			"scope": "storage.modifier.array",
+			"settings": {
+				"foreground": "#DCDEE5",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"foreground": "#DCDEE5",

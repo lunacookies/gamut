@@ -303,6 +303,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             // as a binary ‘or’ without this
             Textmate("keyword.operator.logical.rust"),
             Textmate("storage.modifier.pointer"),
+            Textmate("storage.modifier.array"),
         ],
         palette.base(BaseScale::Fg),
     );
