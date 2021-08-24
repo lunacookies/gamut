@@ -565,6 +565,13 @@
 			}
 		},
 		{
+			"scope": "punctuation.definition.string",
+			"settings": {
+				"foreground": "#FE8673",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "entity.name.type.namespace",
 			"settings": {
 				"foreground": "#DCDEE5",

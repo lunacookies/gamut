@@ -248,7 +248,14 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.yellow(),
     );
 
-    builder.add_rules(&[Semantic("string"), Textmate("string")], palette.red());
+    builder.add_rules(
+        &[
+            Semantic("string"),
+            Textmate("string"),
+            Textmate("punctuation.definition.string"),
+        ],
+        palette.red(),
+    );
 
     builder.add_rules(
         &[
