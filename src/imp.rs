@@ -302,6 +302,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             // closure parameter ‘|’s are highlighted
             // as a binary ‘or’ without this
             Textmate("keyword.operator.logical.rust"),
+            Textmate("storage.modifier.pointer"),
         ],
         palette.base(BaseScale::Fg),
     );

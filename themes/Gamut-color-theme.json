@@ -648,6 +648,13 @@
 			}
 		},
 		{
+			"scope": "storage.modifier.pointer",
+			"settings": {
+				"foreground": "#DCDEE5",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "entity.name.section.markdown",
 			"settings": {
 				"foreground": "#DCDEE5",
