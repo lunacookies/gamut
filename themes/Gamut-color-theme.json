@@ -348,6 +348,13 @@
 			}
 		},
 		{
+			"scope": "keyword.operator.sizeof",
+			"settings": {
+				"foreground": "#FE7BB3",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"scope": "variable",
 			"settings": {
 				"foreground": "#72BFB0",
@@ -635,13 +642,6 @@
 		},
 		{
 			"scope": "keyword.operator.logical.rust",
-			"settings": {
-				"foreground": "#DCDEE5",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "keyword.operator.sizeof",
 			"settings": {
 				"foreground": "#DCDEE5",
 				"fontStyle": ""

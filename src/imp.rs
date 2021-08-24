@@ -101,6 +101,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Textmate("keyword"),
             Textmate("storage"),
             Textmate("variable.language.this"),
+            // sizeof() in C
+            Textmate("keyword.operator.sizeof"),
         ],
         (palette.pink(), FontStyle::Bold),
     );
@@ -300,8 +302,6 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             // closure parameter ‘|’s are highlighted
             // as a binary ‘or’ without this
             Textmate("keyword.operator.logical.rust"),
-            // sizeof() in C
-            Textmate("keyword.operator.sizeof"),
         ],
         palette.base(BaseScale::Fg),
     );
