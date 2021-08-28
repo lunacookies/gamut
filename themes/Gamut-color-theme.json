@@ -320,6 +320,9 @@
 		"comment": {
 			"bold": true
 		},
+		"*.mutable": {
+			"underline": true
+		},
 		"unresolvedReference": {
 			"foreground": "#FE8673",
 			"underline": true

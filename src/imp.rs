@@ -308,6 +308,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.base(BaseScale::Fg),
     );
 
+    builder.add_rule(Semantic("*.mutable"), FontStyle::Underline);
+
     builder.add_rule(
         Semantic("unresolvedReference"),
         (palette.red(), FontStyle::Underline),
