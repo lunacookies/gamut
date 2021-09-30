@@ -85,6 +85,10 @@
 			"foreground": "#8FF4E0",
 			"fontStyle": ""
 		},
+		"interface": {
+			"foreground": "#8FF4E0",
+			"fontStyle": ""
+		},
 		"union": {
 			"foreground": "#8FF4E0",
 			"fontStyle": ""
@@ -113,35 +117,11 @@
 			"foreground": "#B682ED",
 			"fontStyle": ""
 		},
-		"arithmetic": {
-			"foreground": "#B682ED",
-			"fontStyle": ""
-		},
-		"bitwise": {
-			"foreground": "#B682ED",
-			"fontStyle": ""
-		},
-		"logical": {
-			"foreground": "#B682ED",
-			"fontStyle": ""
-		},
-		"comparison": {
-			"foreground": "#B682ED",
-			"fontStyle": ""
-		},
-		"operator.controlFlow": {
-			"foreground": "#B682ED",
-			"fontStyle": ""
-		},
 		"property.library": {
 			"foreground": "#B682ED",
 			"fontStyle": ""
 		},
 		"enumMember.library": {
-			"foreground": "#B682ED",
-			"fontStyle": ""
-		},
-		"boolean": {
 			"foreground": "#B682ED",
 			"fontStyle": ""
 		},
@@ -161,6 +141,10 @@
 			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
+		"interface.library": {
+			"foreground": "#D0AAFC",
+			"fontStyle": ""
+		},
 		"union.library": {
 			"foreground": "#D0AAFC",
 			"fontStyle": ""
@@ -169,12 +153,88 @@
 			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
-		"builtinType": {
+		"annotation": {
 			"foreground": "#D0AAFC",
 			"fontStyle": ""
 		},
-		"annotation": {
-			"foreground": "#D0AAFC",
+		"variable.defaultLibrary": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"parameter.defaultLibrary": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"function.defaultLibrary": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"method.defaultLibrary": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"arithmetic": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"bitwise": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"logical": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"comparison": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"operator.controlFlow": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"property.defaultLibrary": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"enumMember.defaultLibrary": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#8DBF70",
+			"fontStyle": ""
+		},
+		"type.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"class.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"struct.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"enum.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"interface.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"union.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"typeAlias.defaultLibrary": {
+			"foreground": "#B2DD9A",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#B2DD9A",
 			"fontStyle": ""
 		},
 		"variable.declaration": {
@@ -217,6 +277,10 @@
 			"foreground": "#7DDDFB",
 			"fontStyle": ""
 		},
+		"interface.declaration": {
+			"foreground": "#7DDDFB",
+			"fontStyle": ""
+		},
 		"union.declaration": {
 			"foreground": "#7DDDFB",
 			"fontStyle": ""
@@ -227,50 +291,6 @@
 		},
 		"typeParameter.declaration": {
 			"foreground": "#7DDDFB",
-			"fontStyle": ""
-		},
-		"variable.trait": {
-			"foreground": "#8DBF70",
-			"fontStyle": ""
-		},
-		"function.trait": {
-			"foreground": "#8DBF70",
-			"fontStyle": ""
-		},
-		"method.trait": {
-			"foreground": "#8DBF70",
-			"fontStyle": ""
-		},
-		"interface": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"type.trait": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"class.trait": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"struct.trait": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"enum.trait": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"union.trait": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"typeAlias.trait": {
-			"foreground": "#B2DD9A",
-			"fontStyle": ""
-		},
-		"typeParameter.trait": {
-			"foreground": "#B2DD9A",
 			"fontStyle": ""
 		},
 		"number": {
@@ -409,154 +429,154 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.arithmetic",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.increment",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.decrement",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.increment-decrement",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.bitwise",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.logical",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.operator.comparison",
 			"settings": {
-				"foreground": "#B682ED",
+				"foreground": "#8DBF70",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.type",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.primitive",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.built-in",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "entity.name.type.numeric",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "entity.name.type.primitive",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.numeric.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.byte.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.boolean.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.string.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.uintptr.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.error.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.rune.go",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "storage.type.annotation",
 			"settings": {
-				"foreground": "#D0AAFC",
+				"foreground": "#B2DD9A",
 				"fontStyle": ""
 			}
 		},

@@ -129,6 +129,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("class"),
             Semantic("struct"),
             Semantic("enum"),
+            Semantic("interface"),
             Semantic("union"),
             Semantic("typeAlias"),
             Semantic("typeParameter"),
@@ -145,13 +146,39 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("parameter.library"),
             Semantic("function.library"),
             Semantic("method.library"),
+            Semantic("property.library"),
+            Semantic("enumMember.library"),
+        ],
+        palette.purple(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("type.library"),
+            Semantic("class.library"),
+            Semantic("struct.library"),
+            Semantic("enum.library"),
+            Semantic("interface.library"),
+            Semantic("union.library"),
+            Semantic("typeAlias.library"),
+            Semantic("annotation"),
+        ],
+        palette.light_purple(),
+    );
+
+    builder.add_rules(
+        &[
+            Semantic("variable.defaultLibrary"),
+            Semantic("parameter.defaultLibrary"),
+            Semantic("function.defaultLibrary"),
+            Semantic("method.defaultLibrary"),
             Semantic("arithmetic"),
             Semantic("bitwise"),
             Semantic("logical"),
             Semantic("comparison"),
             Semantic("operator.controlFlow"), // ?
-            Semantic("property.library"),
-            Semantic("enumMember.library"),
+            Semantic("property.defaultLibrary"),
+            Semantic("enumMember.defaultLibrary"),
             Semantic("boolean"),
             Textmate("constant.language"),
             Textmate("support.function"),
@@ -163,19 +190,19 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Textmate("keyword.operator.logical"),
             Textmate("keyword.operator.comparison"),
         ],
-        palette.purple(),
+        palette.green(),
     );
 
     builder.add_rules(
         &[
-            Semantic("type.library"),
-            Semantic("class.library"),
-            Semantic("struct.library"),
-            Semantic("enum.library"),
-            Semantic("union.library"),
-            Semantic("typeAlias.library"),
+            Semantic("type.defaultLibrary"),
+            Semantic("class.defaultLibrary"),
+            Semantic("struct.defaultLibrary"),
+            Semantic("enum.defaultLibrary"),
+            Semantic("interface.defaultLibrary"),
+            Semantic("union.defaultLibrary"),
+            Semantic("typeAlias.defaultLibrary"),
             Semantic("builtinType"),
-            Semantic("annotation"),
             Textmate("keyword.type"),
             Textmate("storage.type.primitive"),
             Textmate("storage.type.built-in"),
@@ -190,7 +217,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Textmate("storage.type.rune.go"),
             Textmate("storage.type.annotation"),
         ],
-        palette.light_purple(),
+        palette.light_green(),
     );
 
     builder.add_rules(
@@ -211,34 +238,12 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
             Semantic("class.declaration"),
             Semantic("struct.declaration"),
             Semantic("enum.declaration"),
+            Semantic("interface.declaration"),
             Semantic("union.declaration"),
             Semantic("typeAlias.declaration"),
             Semantic("typeParameter.declaration"),
         ],
         palette.light_blue(),
-    );
-
-    builder.add_rules(
-        &[
-            Semantic("variable.trait"),
-            Semantic("function.trait"),
-            Semantic("method.trait"),
-        ],
-        palette.green(),
-    );
-
-    builder.add_rules(
-        &[
-            Semantic("interface"),
-            Semantic("type.trait"),
-            Semantic("class.trait"),
-            Semantic("struct.trait"),
-            Semantic("enum.trait"),
-            Semantic("union.trait"),
-            Semantic("typeAlias.trait"),
-            Semantic("typeParameter.trait"),
-        ],
-        palette.light_green(),
     );
 
     builder.add_rules(
